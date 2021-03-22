@@ -19,3 +19,11 @@
     font-size: 1rem;
     padding: 0.5rem 0.5rem;
 }
+
+.input-textbox:focus{
+    border: 2px solid var(--primary-color);
+}
+
+.input-textbox-error:focus{
+    border:2px solid rgb(248, 22, 22);
+}
