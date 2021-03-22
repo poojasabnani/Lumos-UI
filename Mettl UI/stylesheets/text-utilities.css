@@ -1,0 +1,45 @@
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+
+.heading-primary {
+    color: var(--primary-color);
+}
+
+.heading-secondary {
+    color: var(--secondary-color);
+}
+
+.small-text {
+    font-size: 0.7rem;
+}
+
+.gray-text {
+    color:gray;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.pd2{
+    padding:2rem;
+}
+
+.fs2{
+    font-size: 2rem;
+}
+
+.fs1{
+    font-size: 1.2rem;
+}

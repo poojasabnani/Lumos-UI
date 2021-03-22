@@ -1,0 +1,21 @@
+.input-textbox {
+    border-radius: 0.25rem;
+    width: auto;
+    height: 1.5rem;
+    outline: none;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.input-textbox-error {
+    border-radius: 0.25rem;
+    width: auto;
+    height: 1.5rem;
+    outline: none;
+    border: 1px solid red;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+}

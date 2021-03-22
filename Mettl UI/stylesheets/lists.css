@@ -1,0 +1,30 @@
+.list-spaced {
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 2px solid var(--primary-color);
+    border-radius: 2rem;
+    margin: 0.5rem;
+    max-width:400px;
+    list-style-type:none;
+}
+
+
+.list-stacked {
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 2px solid var(--secondary-color);
+    border-right: 0;
+    border-left:0;
+    border-top: 0;
+    margin: 0.5rem;
+    max-width:400px;
+    list-style-type:none;
+}
+
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
