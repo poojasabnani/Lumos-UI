@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<!--TODO: https://raptis.wtf/ scroller -->
+    <!--TODO: https://raptis.wtf/ scroller -->
     <h1>Mettl-UI : Component Library</h1>
     1.Avatar
     <br>
@@ -42,8 +42,8 @@
     <h5><span class="badge bg-primary alt">Primary</span></h5>
     <h5><span class="badge bg-secondary">Secondary</span></h5>
     <h5><span class="badge bg-secondary alt">Secondary</span></h5>
-    
-    
+
+
     <br>
     Badge on icons: <br>
     <!-- Badges on icon -->
@@ -56,16 +56,17 @@
     <br>
     Badge on avatar: <br>
     <!-- Badges on avatar -->
-    <div class="badge-avatar-container">
+    <div class="badge-component-container">
         <img class="avatar avatar-medium" src="./images/avatar-person.svg">
         <div class="avatar-badge">
         </div>
     </div>
-    <hr></hr>
+    <hr>
+    </hr>
 
     4. Button
     <br>
-    Primary<button class="button button-primary">Click me</button> 
+    Primary<button class="button button-primary">Click me</button>
     Secondary<button class="button button-secondary">Click me</button>
     Link<button class="button button-link">Click me</button>
     Disabled<button class="button button-disabled" disabled=true>Click me</button>
@@ -79,42 +80,102 @@
     Floating action buttons:<br>
     <button class="button button-floating-action">+</button>
     <br>
-    <hr></hr>
+    <hr>
+    </hr>
     5. Card
     <br>
     Cards with badges:
+    <div class="card-vertical flex-items">
+        <div class="image-container badge-container">
+            <img class="img-responsive card-img" src="./images/avatar-person.svg">
+            <span class="badge bg-primary">New</span>
+        </div>
+        <div class="text-container">
+            <h4 class="heading-primary">Sample product</h4>
+            <p>
+                This is a sample product. This is it's description.
+            </p>
+            <p>Rs. 4000</p>
+        </div>
+    </div>
     <br>
     Cards with dismiss:
+    <div class="card-vertical flex-items">
+        <button class="button-close">X</button>
+        <div class="image-container badge-container">
+            <img class="img-responsive card-img" src="./images/avatar-person.svg">
+            <span class="badge bg-primary">New</span>
+        </div>
+        <div class="text-container">
+            <h4 class="heading-primary">Sample product</h4>
+            <p>Rs. 4000</p>
+        </div>
+    </div>
     <br>
     Cards with text overlay:
+    <div class="card-vertical flex-items">
+        <div class="overlay-container">
+            <div class="image-container badge-container">
+                <img class="img-responsive card-img" src="./images/avatar-person.svg">
+                <span class="badge bg-primary">New</span>
+            </div>
+            <div class="text-container">
+                <h4 class="heading-primary">Sample product</h4>
+                <p>Rs. 4000</p>
+            </div>
+        </div>
+        <div class="overlay-text">
+            <h4>Out of Stock</h4>
+        </div>
+    </div>
     <br>
     Text only cards:
-    <br>
-    Vertical cards:
+    <div class="card-vertical flex-items">
+        <div>
+            <h3>Lorem Heading</h3>
+        </div>
+        <div>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias odio velit quisquam unde dolor ipsum hic
+                nobis minus, ab id, eius, quos vel doloremque. Iste nisi facere fugit perferendis eos!
+            </p>
+        </div>
+    </div>
     <br>
     Horizontal cards:
-    <br>
-    Cards with shadow:
-    <hr></hr>
-    6. Image 
+    <div class="card-horizontal flex-items">
+        <div class="image-container badge-container">
+            <img class="img-responsive card-img" src="./images/avatar-person.svg">
+            <span class="badge bg-primary">New</span>
+        </div>
+        <div class="text-container">
+            <h4 class="heading-primary">Sample product</h4>
+            <p>Rs. 4000</p>
+        </div>
+    </div>
+    <hr>
+    </hr>
+    6. Image
     <br>
     Responsive Image:
-    <div class="container-responsive"><img src="./images/sample.jpg" class="img-responsive">
+    <div class="container-responsive"><img src="./images/sample_image.jpg" class="img-responsive">
     </div>
     Round Image:
     <br>
-    <img src="./images/sample.jpg" class="img-round">
+    <img src="./images/sample_image.jpg" class="img-round">
     <br>
-    <hr></hr>
+    <hr>
+    </hr>
     7. Input
     <br>
     Textbox:
-        <input class="input-textbox" type="text" placeholder="Full name"></input>
-        <br>
-    Validation: 
+    <input class="input-textbox" type="text" placeholder="Full name"></input>
+    <br>
+    Validation:
     <input class="input-textbox-error" type="text" placeholder="Full name"></input>
     <br>
-    <hr></hr>
+    <hr>
+    </hr>
     8. Lists
     <br>
     Spaced Lists (normal):
@@ -132,22 +193,23 @@
         <li class="list-stacked">List Item 3</li>
     </ul>
     <br>
-    <hr></hr>
+    <hr>
+    </hr>
     9. Navigation
     <br>
     Desktop (Simple) : Horizontal
     <br>
-        <ul class="horizontal-navbar">
-            <li class="horizontal-navbar-item">
-                <a href="javascript:void(0)">Home</a>
-            </li>
-            <li class="horizontal-navbar-item">
-                <a href="javascript:void(0)">About</a>
-            </li>
-            <li class="horizontal-navbar-item">
-                <a href="javascript:void(0)">Profile</a>
-            </li>
-        </ul>
+    <ul class="horizontal-navbar">
+        <li class="horizontal-navbar-item">
+            <a href="javascript:void(0)">Home</a>
+        </li>
+        <li class="horizontal-navbar-item">
+            <a href="javascript:void(0)">About</a>
+        </li>
+        <li class="horizontal-navbar-item">
+            <a href="javascript:void(0)">Profile</a>
+        </li>
+    </ul>
     <br>
     Desktop (Simple) : Vertical
     <br>
@@ -167,26 +229,28 @@
     <br>
     Hamburger/drawer(later)
     <br>
-    <hr></hr>
+    <hr>
+    </hr>
     10. Modal
     <br>
-        <button id="modalButton">Show Modal</button>
+    <button id="modalButton">Show Modal</button>
 
-        <div id="modalSample" class="modal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Mettl UI</h5>
-                    <span class="modal-close">x</span>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias odio velit quisquam unde dolor ipsum hic nobis minus, ab id, eius, quos vel doloremque. Iste nisi facere fugit perferendis eos!</p>
-                </div>
-                <div class="modal-footer">
-                    <button class="button button-secondary">Close</button>
-                    <button class="button button-primary">Save</button>
-                </div>
+    <div id="modalSample" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mettl UI</h5>
+                <span class="modal-close">x</span>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias odio velit quisquam unde dolor ipsum
+                    hic nobis minus, ab id, eius, quos vel doloremque. Iste nisi facere fugit perferendis eos!</p>
+            </div>
+            <div class="modal-footer">
+                <button class="button button-secondary">Close</button>
+                <button class="button button-primary">Save</button>
             </div>
         </div>
+    </div>
     <hr>
     </hr>
     11. Rating
@@ -217,27 +281,27 @@
     <br>
     headings:
     <h3 class="heading-primary">Primary Heading</h1>
-    <h3 class="heading-secondary">Secondary Heading</h1>
-    <br>
-    small text:
-    <div class="small-text">Small text</div>
-    <br>
-    gray text:
-    <div class="gray-text">Gray Text</div>
-    <div class="gray-text bold">Gray Bold Text</div>
-    <br>
-    center text:
-    <div class="center">Center text</div>
-    <br>
-    <hr>
-    </hr>
-    15. Toast/Notify/Snackbar
-    <br>
-        <button  onclick="showToast()">Show Toast</button>
-        <div id="toast">This is a toast</div>
-    <hr>
-    </hr>
-    <script src="./index.js"></script>
+        <h3 class="heading-secondary">Secondary Heading</h1>
+            <br>
+            small text:
+            <div class="small-text">Small text</div>
+            <br>
+            gray text:
+            <div class="gray-text">Gray Text</div>
+            <div class="gray-text bold">Gray Bold Text</div>
+            <br>
+            center text:
+            <div class="center">Center text</div>
+            <br>
+            <hr>
+            </hr>
+            15. Toast/Notify/Snackbar
+            <br>
+            <button onclick="showToast()">Show Toast</button>
+            <div id="toast">This is a toast</div>
+            <hr>
+            </hr>
+            <script src="./index.js"></script>
 </body>
 
 </html>

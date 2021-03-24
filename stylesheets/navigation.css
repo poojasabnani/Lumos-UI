@@ -48,6 +48,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .navbar .nav-brand {
     font-weight: bold;
     font-size: larger;
@@ -64,6 +65,7 @@
 .list-item-non-bullet{
     list-style: none;
 }
+
 .navbar .link-active {
     font-weight: bold;
     background-color: var(--mid-primary);
@@ -80,6 +82,26 @@
 }
 
 
+.aside-nav {
+    position:sticky;
+    top:0;
+    height:max-content;
+    width: max-content;
+    display: block;
+    color:var(--grey-600);
+    
+}
+    
+.aside-link {
+    text-decoration: none;
+    color:var(--grey-600)
+
+}
+
+.aside-current-item{
+    font-weight: bold;
+    color:var(--mid-primary);
+}
 
 .navbar-vertical-item{
     text-align: left;

@@ -1,83 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="icon" href="./images/logo.png" type="image/icon type" />
-    <title>Mettl-UI | Docs</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-horizontal ">
-      <div class="nav-brand">
-        <img src="./images/logo.png" />
-        <a class="header link" href="/">Mettl UI</a>
-      </div>
-      <ul class="list-non-bullet">
-        <li class="list-item-inline">
-          <a class="link" href="/">Home</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" href="./images/logo.png" type="image/icon type" />
+  <title>Mettl-UI | Docs</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-horizontal ">
+    <div class="nav-brand">
+      <img src="./images/logo.png" />
+      <a class="header link" href="/">Mettl UI</a>
+    </div>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">
+        <a class="link" href="/">Home</a>
+      </li>
+      <li class="list-item-inline link-active">
+        <a class="link" href="/document.html">Docs</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="/download.html">Download</a>
+      </li>
+    </ul>
+  </nav>
+  <div class=" flex">
+    <aside class="aside-nav">
+      <ul class="list-item-non-bullet border-right">
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./avatar.html">Avatar</a>
         </li>
-        <li class="list-item-inline link-active">
-          <a class="link" href="/document.html">Docs</a>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./alert.html">Alert</a>
         </li>
-        <li class="list-item-inline">
-          <a class="link" href="/download.html">Download</a>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./badge.html">Badge</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./button.html">Button</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link aside-current-item" href="./card.html">Card</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./image.html">Images</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./input.html">Input</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./list.html">Lists</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./navigation.html">Navigation</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./modal.html">Modal</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./rating.html">Rating</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./utilities.html">Text utilities</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./toast.html">Toast</a>
         </li>
       </ul>
-    </nav>
-    <div class=" flex">
-      <aside class="aside-nav">
-        <ul class="list-item-non-bullet border-right">
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./avatar.html">Avatar</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./alert.html"
-              >Alert</a
-            >
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./badge.html">Badge</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./button.html">Button</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link aside-current-item" href="./card.html">Card</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./image.html">Images</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./input.html">Input</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./list.html">Lists</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./navigation.html">Navigation</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./modal.html">Modal</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./rating.html">Rating</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./utilities.html">Text utilities</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./toast.html">Toast</a>
-          </li>
-        </ul>
-      </aside>
-      <main class="main">
-        Work in progress. Please check other components.
-    </div>
-  </body>
+    </aside>
+    <main class="main">
+      <h1 class="heading-primary">Cards:</h1>
+
+      <p class="heading-primary fs1">
+        You can select cards of different types:
+      </p>
+      <div class="main-content">
+        <h3 class="heading-primary">Cards with badges:</h3>
+        <div class="component-container pd2">
+          <div class="card-vertical flex-items">
+            <div class="image-container badge-container">
+              <img class="img-responsive card-img" src="./images/avatar-person.svg">
+              <span class="badge bg-primary">New</span>
+            </div>
+            <div class="text-container">
+              <h4 class="heading-primary">Sample product</h4>
+              <p>This is a sample description.</p>
+            </div>
+          </div>
+        </div>
+        <div class="iframe-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2520flex-items%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522image-container%2520badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520card-img%2522%2520src%253D%2522.%252Fimages%252Favatar-person.svg%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-primary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522heading-primary%2522%253ESample%2520product%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520sample%2520description.%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 778px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h3 class="heading-primary">Cards with dismiss:</h3>
+        <div class="component-container pd2">
+          <div class="card-vertical flex-items">
+            <button class="button-close">X</button>
+            <div class="image-container badge-container">
+              <img class="img-responsive card-img" src="./images/avatar-person.svg">
+              <span class="badge bg-primary">New</span>
+            </div>
+            <div class="text-container">
+              <h4 class="heading-primary">Sample product</h4>
+              <p>Rs. 4000</p>
+            </div>
+          </div>
+        </div>
+        <div class="iframe-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2520flex-items%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522button-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520class%253D%2522image-container%2520badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520card-img%2522%2520src%253D%2522.%252Fimages%252Favatar-person.svg%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-primary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522heading-primary%2522%253ESample%2520product%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cp%253ERs.%25204000%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 774px; height: 334px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h3 class="heading-primary">Cards with text overlay:</h3>
+        <div class="component-container pd2">
+          <div class="card-vertical flex-items">
+            <div class="overlay-container">
+              <div class="image-container badge-container">
+                <img class="img-responsive card-img" src="./images/avatar-person.svg">
+                <span class="badge bg-primary">New</span>
+              </div>
+              <div class="text-container">
+                <h4 class="heading-primary">Sample product</h4>
+                <p>Rs. 4000</p>
+              </div>
+            </div>
+            <div class="overlay-text">
+              <h4>Out of Stock</h4>
+            </div>
+          </div>
+        </div>
+        <div class="iframe-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2520flex-items%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-container%2520badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520card-img%2522%2520src%253D%2522.%252Fimages%252Favatar-person.svg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-primary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522heading-primary%2522%253ESample%2520product%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ERs.%25204000%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EOut%2520of%2520Stock%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 810px; height: 408px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h3 class="heading-primary">Text only cards:</h3>
+        <div class="component-container pd2">
+          <div class="card-vertical flex-items">
+            <div>
+              <h3>Lorem Heading</h3>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias odio velit quisquam unde dolor ipsum hic
+                nobis minus, ab id, eius, quos vel doloremque. Iste nisi facere fugit perferendis eos!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="iframe-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2520flex-items%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ELorem%2520Heading%253C%252Fh3%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%252C%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Alias%2520odio%2520velit%2520quisquam%2520%2509%2509%2509%2509unde%2520dolor%2520ipsum%2520hicnobis%2520minus%252C%2520ab%2520id%252C%2520eius%252C%2520quos%2520vel%2520doloremque.%2520Iste%2520nisi%2520facere%2520fugit%2520%2509%2509%2509%2520%2520perferendis%2520eos%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 1024px; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h3 class="heading-primary">Horizontal card:</h3>
+        <div class="component-container pd2">
+          <div class="card-horizontal flex-items">
+            <div class="image-container badge-container">
+              <img class="img-responsive card-img" src="./images/avatar-person.svg">
+              <span class="badge bg-primary">New</span>
+            </div>
+            <div class="text-container">
+              <h4 class="heading-primary">Sample product</h4>
+              <p>Rs. 4000</p>
+            </div>
+          </div>
+        </div>
+        <div class="iframe-container">
+          <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2520flex-items%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522image-container%2520badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520card-img%2522%2520src%253D%2522.%252Fimages%252Favatar-person.svg%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-primary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522heading-primary%2522%253ESample%2520product%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cp%253ERs.%25204000%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+          style="width: 774px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        </div>
+      </div>
+  </div>
+</body>
+
 </html>
