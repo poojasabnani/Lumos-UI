@@ -18,7 +18,7 @@
     width: 2rem;
 }
 
-.avatar-wrapper{
+.avatar-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
