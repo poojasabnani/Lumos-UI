@@ -1,2 +1,3 @@
-# neoG-Project1-Component-Library
-A component library created in HTML, CSS and vanillaJS.
+# Mettl-UI
+An easy to use component library created in HTML, CSS and vanillaJS.
+
