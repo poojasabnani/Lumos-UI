@@ -36,3 +36,8 @@
     display: flex;
     flex-direction: column;
 }
+
+#alert-iframe1{
+    width: 732px;
+    height: 240px;
+}

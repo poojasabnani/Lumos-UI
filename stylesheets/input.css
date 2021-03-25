@@ -1,10 +1,13 @@
+:root{
+    --error-red:rgb(248, 22, 22);
+}
 .input-textbox {
     border-radius: 0.25rem;
     width: auto;
     height: 1.5rem;
     outline: none;
     border: 1px solid #ced4da;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     font-size: 1rem;
     padding: 0.5rem 0.5rem;
 }
@@ -15,15 +18,25 @@
     height: 1.5rem;
     outline: none;
     border: 1px solid red;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     font-size: 1rem;
     padding: 0.5rem 0.5rem;
 }
 
-.input-textbox:focus{
+.input-textbox:focus {
     border: 2px solid var(--primary-color);
 }
 
-.input-textbox-error:focus{
-    border:2px solid rgb(248, 22, 22);
+.input-textbox-error:focus {
+    border: 2px solid var(--error-red);
+}
+
+#input-iframe1 {
+    width: 766px;
+    height: 170px;
+}
+
+#input-iframe2 {
+    width: 856px;
+    height: 170px;
 }

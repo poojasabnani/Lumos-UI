@@ -1,67 +1,91 @@
-
-.card-vertical{ 
-    padding:0.5rem;
-    display:flex;
+.card-vertical {
+    padding: 0.5rem;
+    display: flex;
     flex-direction: column;
     max-width: 160px;
     width: 100%;
     position: relative;
     box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
-} 
-
-.card-horizontal{
-    border-radius: 0.3rem;
-    display:flex;
-    box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
-    padding:0.5rem;
 }
 
-.flex-items{
+.card-horizontal {
+    border-radius: 0.3rem;
+    display: flex;
+    box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+    padding: 0.5rem;
+}
+
+.flex-items {
     margin: 1rem 1rem 1rem 0;
 }
 
-.image-container .badge{
-    position:absolute;
-    top:2rem;
-    left:-0.5rem;
-    opacity:0.8;
+.image-container .badge {
+    position: absolute;
+    top: 2rem;
+    left: -0.5rem;
+    opacity: 0.8;
 }
 
-.badge-container{
-    position:relative;
-    width:fit-content;
-    box-sizing:border-box;
+.badge-container {
+    position: relative;
+    width: fit-content;
+    box-sizing: border-box;
 }
 
-.card-img{
+.card-img {
     border-radius: 0.3rem;
 }
 
-.button-close{
+.button-close {
     border: none;
-    width:2rem;
+    width: 2rem;
     height: 2rem;
-    position:absolute;
-    opacity:0.7;
-    cursor:pointer;
-    z-index:1;
-    outline:none;
-    top:0;
-    right:0;
+    position: absolute;
+    opacity: 0.7;
+    cursor: pointer;
+    z-index: 1;
+    outline: none;
+    top: 0;
+    right: 0;
 }
 
-.overlay-container{
-    opacity:0.3;
+.overlay-container {
+    opacity: 0.3;
 }
 
-.overlay-text{
-    position:absolute;
-    top:7rem;
-    left:3rem;
+.overlay-text {
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
 }
 
-.text-container{
-    padding-left:1rem;
+.text-container {
+    padding-left: 1rem;
     display: flex;
     flex-direction: column;
+}
+
+#card-iframe1 {
+    width: 800px;
+    height: 316px;
+}
+
+#card-iframe2 {
+    width: 800px;
+    height: 334px;
+}
+
+#card-iframe3 {
+    width: 830px;
+    height: 408px;
+}
+
+#card-iframe4 {
+    width: 1024px;
+    height: 353px;
+}
+
+#card-iframe5 {
+    width: 800px;
+    height: 316px;
 }

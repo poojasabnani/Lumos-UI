@@ -1,45 +1,9 @@
-/* .rate {
-    float: left;
-    height: 46px;
-    padding: 0 10px;
-}
-.rate:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
-}
-.rate:not(:checked) > label {
-    float:right;
-    width:1em;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor:pointer;
-    font-size:30px;
-    color:#ccc;
-}
-.rate:not(:checked) > label:before {
-    content: '★ ';
-}
-.rate > input:checked ~ label {
-    color: #ffc700;    
-}
-.rate:not(:checked) > label:hover,
-.rate:not(:checked) > label:hover ~ label {
-    color: #deb217;  
-}
-.rate > input:checked + label:hover,
-.rate > input:checked + label:hover ~ label,
-.rate > input:checked ~ label:hover,
-.rate > input:checked ~ label:hover ~ label,
-.rate > label:hover ~ input:checked ~ label {
-    color: #c59b08;
-} */
-
 .rating-good {
     display: inline-block;
     color: whitesmoke;
     background-color: #388e3c;
     font-size: 12px;
-    font-weight:500;
+    font-weight: 500;
     border-radius: 3px;
     padding: 2px 4px 2px 6px;
 }
@@ -52,9 +16,14 @@
 .rating-below-avg {
     display: inline-block;
     color: whitesmoke;
-    background-color:#ff9f00;
+    background-color: #ff9f00;
     font-size: 12px;
-    font-weight:500;
+    font-weight: 500;
     border-radius: 3px;
     padding: 2px 4px 2px 6px;
+}
+
+#rating-iframe1 {
+    width: 640px;
+    height: 261px;
 }

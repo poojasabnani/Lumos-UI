@@ -1,7 +1,10 @@
 .modal {
-  display: none; /*hidden by default*/
-  position: fixed; /* stay in place*/
-  z-index: 1; /* sit on top */
+  display: none;
+  /*hidden by default*/
+  position: fixed;
+  /* stay in place*/
+  z-index: 1;
+  /* sit on top */
   left: 0;
   top: 0;
   width: 100%;
@@ -43,4 +46,9 @@
 
 .modal-close {
   cursor: pointer;
+}
+
+#modal-iframe1 {
+  width: 700px;
+  height: 408px;
 }

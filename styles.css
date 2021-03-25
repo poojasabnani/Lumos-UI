@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@import url('stylesheets/avatar.css');
+
 @import url('stylesheets/alert.css');
-@import url('stylesheets/images.css');
+@import url('stylesheets/avatar.css');
 @import url('stylesheets/badge.css');
 @import url('stylesheets/button.css');
 @import url('stylesheets/card.css');
+@import url('stylesheets/grid.css');
+@import url('stylesheets/images.css');
 @import url('stylesheets/input.css');
 @import url('stylesheets/lists.css');
-@import url('stylesheets/navigation.css');
 @import url('stylesheets/modal.css');
+@import url('stylesheets/navigation.css');
 @import url('stylesheets/rating.css');
 @import url('stylesheets/slider.css');
-@import url('stylesheets/grid.css');
 @import url('stylesheets/text-utilities.css');
 @import url('stylesheets/toast.css');
 
@@ -91,6 +92,12 @@ body {
 
 .iframe-container{
     text-align: center;
+}
+
+.iframe{
+    border:0px;
+    transform: scale(1);
+    overflow:hidden;
 }
 
 .p {

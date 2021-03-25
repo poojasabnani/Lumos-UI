@@ -5,8 +5,8 @@
     border: 2px solid var(--primary-color);
     border-radius: 0.4rem;
     margin: 0.2rem;
-    max-width:400px;
-    list-style-type:none;
+    max-width: 400px;
+    list-style-type: none;
 }
 
 
@@ -16,15 +16,25 @@
     background-color: #fff;
     border: 2px solid var(--primary-color);
     border-right: 0;
-    border-left:0;
+    border-left: 0;
     border-top: 0;
     margin: 0.5rem;
-    max-width:400px;
-    list-style-type:none;
+    max-width: 400px;
+    list-style-type: none;
 }
 
 
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+#list-iframe1 {
+    width: 550px;
+    height: 220px;
+}
+
+#list-iframe2 {
+    width: 513px;
+    height: 280px;
 }

@@ -1,131 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="icon" href="./images/logo.png" type="image/icon type" />
-    <title>Mettl-UI | Docs</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-horizontal ">
-      <div class="nav-brand">
-        <img src="./images/logo.png" />
-        <a class="header link" href="/">Mettl UI</a>
-      </div>
-      <ul class="list-non-bullet">
-        <li class="list-item-inline">
-          <a class="link" href="/">Home</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" href="./images/logo.png" type="image/icon type" />
+  <title>Mettl-UI | Docs</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-horizontal ">
+    <div class="nav-brand">
+      <img src="./images/logo.png" />
+      <a class="header link" href="/">Mettl UI</a>
+    </div>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">
+        <a class="link" href="/">Home</a>
+      </li>
+      <li class="list-item-inline link-active">
+        <a class="link" href="/document.html">Docs</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="/download.html">Download</a>
+      </li>
+    </ul>
+  </nav>
+  <div class=" flex">
+    <aside class="aside-nav">
+      <ul class="list-item-non-bullet border-right">
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./avatar.html">Avatar</a>
         </li>
-        <li class="list-item-inline link-active">
-          <a class="link" href="/document.html">Docs</a>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./alert.html">Alert</a>
         </li>
-        <li class="list-item-inline">
-          <a class="link" href="/download.html">Download</a>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./badge.html">Badge</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link aside-current-item" href="./button.html">Button</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./card.html">Card</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./image.html">Images</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./input.html">Input</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./list.html">Lists</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./navigation.html">Navigation</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./modal.html">Modal</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./rating.html">Rating</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./utilities.html">Text utilities</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./toast.html">Toast</a>
         </li>
       </ul>
-    </nav>
-    <div class=" flex">
-      <aside class="aside-nav">
-        <ul class="list-item-non-bullet border-right">
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./avatar.html">Avatar</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./alert.html"
-              >Alert</a
-            >
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./badge.html">Badge</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link aside-current-item" href="./button.html">Button</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./card.html">Card</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./image.html">Images</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./input.html">Input</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./list.html">Lists</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./navigation.html">Navigation</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./modal.html">Modal</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./rating.html">Rating</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./utilities.html">Text utilities</a>
-          </li>
-          <li class="navbar-vertical-item">
-            <a class="aside-link" href="./toast.html">Toast</a>
-          </li>
-        </ul>
-      </aside>
-      <main class="main ">
-        <h1 class="heading-primary">Buttons</h1>
+    </aside>
+    <main class="main ">
+      <h1 class="heading-primary">Buttons</h1>
 
-        <p class="heading-primary fs1">
-          You can select buttons of different types:
-        </p>
-        <div class="main-content">
-            <h3 class="heading-primary">Buttons</h3>
-          <div class="component-container  pd2">
-            <button class="button button-primary">Click me</button> 
-<button class="button button-secondary">Click me</button>
-<button class="button button-link">Click me</button>
-<button class="button button-disabled" disabled=true>Click me</button>
-          </div>
-          <div class="iframe-container">
-            <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Ch5%253E%253Cspan%2520class%253D%2522badge%2520bg-primary%2522%253EPrimary%253C%252Fspan%253E%253C%252Fh5%253E%250A%2520%2520%2520%253Ch5%253E%253Cspan%2520class%253D%2522badge%2520bg-primary%2520alt%2522%253EPrimary%253C%252Fspan%253E%253C%252Fh5%253E%250A%2520%2520%2520%253Ch5%253E%253Cspan%2520class%253D%2522badge%2520bg-secondary%2522%253ESecondary%253C%252Fspan%253E%253C%252Fh5%253E%250A%2520%2520%2520%253Ch5%253E%253Cspan%2520class%253D%2522badge%2520bg-secondary%2520alt%2522%253ESecondary%253C%252Fspan%253E%253C%252Fh5%253E"
-  style="width: 1024px; height: 210px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-          </div>
-          <h3 class="heading-primary">Icon buttons</h3>
-    <div class="component-container">
-        <button class="button button-icon fa fa-home fa-2x"></button>
-        <button class="button button-icon fa fa-bars fa-2x"></button>
-        <button class="button button-icon fa fa-github fa-2x"></button>
-        <button class="button button-icon fa fa-linkedin fa-2x"></button>
-</div>
-          <div class="iframe-container">
-            <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-icon%2520fa%2520fa-home%2520fa-2x%2522%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-icon%2520fa%2520fa-bars%2520fa-2x%2522%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-icon%2520fa%2520fa-github%2520fa-2x%2522%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-icon%2520fa%2520fa-linkedin%2520fa-2x%2522%253E%253C%252Fbutton%253E"
-  style="width: 698px; height: 216px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-          </div>
-          <h3 class="heading-primary">Floating action button</h3>
-    <div class="component-container">
-        <button class="button button-floating-action">+</button>
-</div>
-          <div class="iframe-container">
-            <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-floating-action%2522%253E%252B%253C%252Fbutton%253E"
-  style="width: 622px; height: 150px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-          </div>
+      <p class="heading-primary font-size1">
+        You can select buttons of different types:
+      </p>
+      <div class="main-content">
+        <h3 class="heading-primary">Buttons</h3>
+        <div class="component-container  padding2">
+          <button class="button button-primary">Click me</button>
+          <button class="button button-secondary">Click me</button>
+          <button class="button button-link">Click me</button>
+          <button class="button button-disabled" disabled=true>Click me</button>
         </div>
+        <div class="iframe-container">
+          <iframe class="iframe" id="button-iframe1"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Ch5%253E%253Cspan%2520class%253D%2522badge%2520bg-primary%2522%253EPrimary%253C%252Fspan%253E%253C%252Fh5%253E%250A%2520%2520%2520%253Ch5%253E%253Cspan%2520class%253D%2522badge%2520bg-primary%2520alt%2522%253EPrimary%253C%252Fspan%253E%253C%252Fh5%253E%250A%2520%2520%2520%253Ch5%253E%253Cspan%2520class%253D%2522badge%2520bg-secondary%2522%253ESecondary%253C%252Fspan%253E%253C%252Fh5%253E%250A%2520%2520%2520%253Ch5%253E%253Cspan%2520class%253D%2522badge%2520bg-secondary%2520alt%2522%253ESecondary%253C%252Fspan%253E%253C%252Fh5%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
         </div>
-        
-      </main>
-    </div>
-  </body>
+        <h3 class="heading-primary">Icon buttons</h3>
+        <div class="component-container">
+          <button class="button button-icon fa fa-home fa-2x"></button>
+          <button class="button button-icon fa fa-bars fa-2x"></button>
+          <button class="button button-icon fa fa-github fa-2x"></button>
+          <button class="button button-icon fa fa-linkedin fa-2x"></button>
+        </div>
+        <div class="iframe-container">
+          <iframe class="iframe" id="button-iframe2"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-icon%2520fa%2520fa-home%2520fa-2x%2522%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-icon%2520fa%2520fa-bars%2520fa-2x%2522%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-icon%2520fa%2520fa-github%2520fa-2x%2522%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-icon%2520fa%2520fa-linkedin%2520fa-2x%2522%253E%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h3 class="heading-primary">Floating action button</h3>
+        <div class="component-container">
+          <button class="button button-floating-action">+</button>
+        </div>
+        <div class="iframe-container">
+          <iframe class="iframe" id="button-iframe3"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-floating-action%2522%253E%252B%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div>
+  </div>
+
+  </main>
+  </div>
+</body>
+
 </html>
