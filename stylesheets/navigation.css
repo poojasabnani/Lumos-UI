@@ -36,7 +36,6 @@
 
 .navbar {
     background-color: var(--primary-color);
-    background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
