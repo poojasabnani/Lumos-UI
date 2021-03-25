@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@import url('stylesheets/alert.css');
+@import url('stylesheets/avatar.css');
+@import url('stylesheets/badge.css');
+@import url('stylesheets/button.css');
+@import url('stylesheets/card.css');
+@import url('stylesheets/grid.css');
+@import url('stylesheets/images.css');
+@import url('stylesheets/input.css');
+@import url('stylesheets/lists.css');
+@import url('stylesheets/modal.css');
+@import url('stylesheets/navigation.css');
+@import url('stylesheets/rating.css');
+@import url('stylesheets/slider.css');
+@import url('stylesheets/text-utilities.css');
+@import url('stylesheets/toast.css');
+
+:root {
+    --primary-color: #082E90;
+    --mid-primary: #4666b8;
+    --off-primary: #B1D4E0;
+    --secondary-color: #805AD5;
+    --off-secondary: #E9D8FD;
+    --grey-600: #4B5563;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.home-intro {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    width:60%;
+    margin: auto;
+}
+
+.home-intro > p {
+    font-size: 1.5rem;
+    text-align: justify;
+    padding:1rem;
+}
+
+.header {
+    font-size:2rem;
+    padding:0rem;
+}
+
+.heading-intro {
+    color: var(--grey-600);
+}
+
+.download {
+    justify-content: center;
+}
+
+.download > img {
+    display: block;
+    margin:auto;
+}
+
+.nav-brand > img {
+    height:4rem;
+    padding:0;
+}
+
+.flex {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.border-right{
+    border-right: 1px solid rgb(185, 184, 184)
+}
+
+.main{
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow:1;
+}
+
+.main-content{
+    align-items: center;
+}
+
+.iframe-container{
+    text-align: center;
+}
+
+.iframe{
+    border:0px;
+    transform: scale(1);
+    overflow:hidden;
+}
+
+.p {
+    font-size: 5rem;
+}
+
+.component-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0rem 0rem;
+}

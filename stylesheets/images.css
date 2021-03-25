@@ -1,0 +1,22 @@
+.img-responsive {
+  width: 100%;
+  height: auto;
+  max-width: 70rem;
+  max-height: 40rem; 
+}
+
+.img-round {
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+}
+
+#image-iframe1 {
+  width: 630px;
+  height: 210px;
+}
+
+#image-iframe2 {
+  width: 650px;
+  height: 150px;
+}

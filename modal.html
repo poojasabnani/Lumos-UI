@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" href="./images/logo.png" type="image/icon type" />
+  <title>Mettl-UI | Docs</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-horizontal ">
+    <div class="nav-brand">
+      <img src="./images/logo.png" />
+      <a class="header link" href="/">Mettl UI</a>
+    </div>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">
+        <a class="link" href="/">Home</a>
+      </li>
+      <li class="list-item-inline link-active">
+        <a class="link" href="/document.html">Docs</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="/download.html">Download</a>
+      </li>
+    </ul>
+  </nav>
+  <div class=" flex">
+    <aside class="aside-nav">
+      <ul class="list-item-non-bullet border-right">
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./avatar.html">Avatar</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./alert.html">Alert</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./badge.html">Badge</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./button.html">Button</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./card.html">Card</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./image.html">Images</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./input.html">Input</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./list.html">Lists</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./navigation.html">Navigation</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link aside-current-item" href="./modal.html">Modal</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./rating.html">Rating</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./utilities.html">Text utilities</a>
+        </li>
+        <li class="navbar-vertical-item">
+          <a class="aside-link" href="./toast.html">Toast</a>
+        </li>
+      </ul>
+    </aside>
+    <main class="main ">
+      <h1 class="heading-primary">Modal:</h1>
+
+      <p class="heading-primary font-size1">
+        You can select modal to display content:
+      </p>
+      <div class="main-content">
+        <h3 class="heading-primary">Simple modal:</h3>
+        <div class="component-container padding2">
+          <button class="button button-primary" id="modalButton">Show Modal</button>
+
+          <div id="modalSample" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Mettl UI</h5>
+                <span class="modal-close">x</span>
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias odio velit quisquam unde dolor ipsum
+                  hic nobis minus, ab id, eius, quos vel doloremque. Iste nisi facere fugit perferendis eos!</p>
+              </div>
+              <div class="modal-footer">
+                <button class="button button-primary">Save</button>
+                <button class="button button-secondary">Close</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="iframe-container">
+          <iframe class="iframe" id="modal-iframe1"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522modalSample%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522modal-title%2522%253EMettl%2520UI%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522modal-close%2522%253Ex%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520modal%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253ESave%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-secondary%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>

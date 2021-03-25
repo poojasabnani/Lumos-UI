@@ -1,0 +1,75 @@
+/* TODO: add hover effects and fix border + box shadow */
+
+.button {
+    border-radius: 0.3rem;
+    margin: 1rem;
+    font-size: 1rem;
+    min-width: 2rem;
+    min-height: 2rem;
+    cursor: pointer;
+    border-color: transparent;
+    outline: none;
+}
+
+.button-primary {
+    color: #B1D4E0;
+    background-color: #082E90;
+}
+
+.button-secondary {
+    color: var(--primary-color);
+    background-color: whitesmoke;
+    border: 2px solid var(--primary-color)
+}
+
+.button-link {
+    background-color: transparent;
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.button-disabled {
+    color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.12);
+    cursor: default;
+}
+
+.button-icon {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 2px 2px;
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+
+.button-floating-action {
+    color: var(--off-primary);
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    height: 3rem;
+    width: 3rem;
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+    font-size: 2rem;
+}
+
+#button-iframe1 {
+    width: 1024px;
+    height: 210px;
+}
+
+#button-iframe2 {
+    width: 720px;
+    height: 216px;
+}
+
+#button-iframe3 {
+    width: 650px;
+    height: 150px;
+}
