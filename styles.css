@@ -17,10 +17,10 @@
 @import url('stylesheets/toast.css');
 
 :root {
-    --primary-color: #082E90;
-    --mid-primary: #4666b8;
-    --off-primary: #B1D4E0;
-    --secondary-color: #805AD5;
+    --primary-color: #2563EB;
+    --mid-primary: #60A5FA;
+    --off-primary: #DBEAFE;
+    --secondary-color: #818CF8;
     --off-secondary: #E9D8FD;
     --grey-600: #4B5563;
 }
