@@ -13,7 +13,7 @@
 
 .button-primary {
     color: #B1D4E0;
-    background-color: #082E90;
+    background-color: var(--primary-color);
 }
 
 .button-secondary {
