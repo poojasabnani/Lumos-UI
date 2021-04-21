@@ -1,0 +1,11 @@
+.burger {
+    display: none;
+    z-index: var(--z-index-6);
+    cursor: pointer;
+  }
+  .burger .line1 {
+    height: 0.125rem;
+    width: 1.5rem;
+    background-color: whitesmoke;
+    margin: 0.313rem 0;
+  }
