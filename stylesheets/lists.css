@@ -38,3 +38,8 @@
     width: 513px;
     height: 280px;
 }
+
+.list-style-none{
+    list-style: none;
+    padding-inline-start: 0;
+  }

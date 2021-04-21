@@ -15,6 +15,7 @@
 @import url('stylesheets/slider.css');
 @import url('stylesheets/text-utilities.css');
 @import url('stylesheets/toast.css');
+@import url('stylesheets/burger.css');
 
 :root {
     --primary-color: #2563EB;
@@ -23,6 +24,13 @@
     --secondary-color: #818CF8;
     --off-secondary: #E9D8FD;
     --grey-600: #4B5563;
+    --inactive-color: rgb(191, 192, 198);
+    --z-index-1: 1;
+    --z-index-2: 2;
+    --z-index-3: 3;
+    --z-index-4: 4;
+    --z-index-5: 5;
+    --z-index-6: 6;
 }
 
 body {
@@ -110,3 +118,7 @@ body {
     align-items: center;
     margin:0rem 0rem;
 }
+
+.Container {
+    padding: 1rem;
+  }
